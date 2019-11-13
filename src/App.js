@@ -1,26 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
+import React,{Component} from 'react';
+//import logo from './logo.svg';
 import './App.css';
+import Cardcomponent from './Cardcomponent/Cardcomponent';
+import PdfContainer from './PdfContainer/PdfContainer';
+import Doc from './DocService/DocService';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  //sravan=()=> window.open("https://www.google.com");
+  createPdf = (html) => Doc.createPdf(html);
+
+  render() {
+ 
+    return (
+      <React.Fragment>
+        
+        <PdfContainer createPdf={this.createPdf} >
+          <React.Fragment>
+            <section >
+            <Cardcomponent />
+            </section>
+          </React.Fragment>
+        </PdfContainer>
+      </React.Fragment>
+    );
+  }
 }
 
+
+  
+  
 export default App;

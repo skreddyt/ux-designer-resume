@@ -1,0 +1,28 @@
+.username{
+    text-align: center;
+    color: white;
+    margin-bottom: 0px;
+  }
+  .ptag{
+    margin-bottom: 0px;
+  }
+
+  .education{
+    text-align: center;
+    color: white;
+  }
+
+  .h4tag{
+    margin-top: 10%;
+    font-size: 18px;
+  }
+
+  .h5tag{
+   
+    font-size: 16px;
+  }
+
+  .h6tag{
+   
+    font-size: 12px;
+  }

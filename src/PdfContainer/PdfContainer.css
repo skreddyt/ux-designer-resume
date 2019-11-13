@@ -1,0 +1,101 @@
+section.pdf-body {
+    width: auto;
+    background-color: #eee;
+    height: 100%;
+    
+  }
+  
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+  }
+  
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .flex {
+    flex: 1 1 auto;
+  }
+  
+  input,
+  textarea {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 8px;
+    margin: 4px;
+  }
+  
+  section.header-bar {
+    padding: 16px;
+    background-color: rgb(48, 44, 44);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+   
+  section.pdf-toolbar {
+    background-color: rgb(48, 44, 44);
+    padding: 16px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;;
+  }
+  
+  section.pdf-toolbar button {
+    padding: 8px;
+    
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: white;
+  }
+
+  button :hover{
+    padding: 8px;
+    
+    cursor: pointer;
+    
+    border: none;
+    color: white;
+  }
+  
+  section.pdf-toolbar button:hover {
+    color: white;
+    background-color: #4863A0;
+  }
+  .portflio{
+    padding: 8px;
+    
+    cursor: pointer;
+    background: none !important;
+    border: none;
+    color: white;
+  }
+  a:hover {
+    text-decoration: none !important;
+  }
+
+  .dropdown-item{
+    color: white !important;
+    opacity: 1;
+  }
+  .dropdown-menu{
+    
+    background-color: rgb(48, 44, 44) !important;
+  }
+
+  img {
+    width: 3%;
+    height: 3%;
+    border-radius: 50%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
