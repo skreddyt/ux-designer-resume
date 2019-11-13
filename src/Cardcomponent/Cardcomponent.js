@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import './Cardcomponent.css';
-import { Row, Col } from 'reactstrap';
+import { Row, Col,Container } from 'reactstrap';
 import sumath from '../sumath.JPG'
 import Img from 'react-image';
 import Summary from '../Summay/Summary';
@@ -25,6 +25,8 @@ class Cardcomponent extends Component {
     return (
      
        
+       <Container>
+
        
         <Row className="row">
         <Col xs="3" className="rightborder">
@@ -37,10 +39,15 @@ class Cardcomponent extends Component {
         </div>
         </Col>
         <Col xs="9">
-        <Summary /> <Cot /> <Yeti /> <Cigna /> <Usaa /> <Dte /> <Garden /> <William /> <Gordon /><Deem />
+        <Summary /> 
         </Col>
+        <Col xs="12">
+        <Cot /> <Yeti /> <Cigna /> <Usaa /> <Dte /> <Garden /> <William /> <Gordon /><Deem />
        
+        </Col>
       </Row>
+     
+      </Container>
      
     )
     }
