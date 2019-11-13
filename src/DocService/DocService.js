@@ -4,7 +4,7 @@ class DocService {
   createPdf = (html) => {
     savePDF(html, { 
       width:500,
-      fileName: 'form.pdf',
+      fileName: 'Sravan UX/UI designer.pdf',
       margin: 3
     })
   }
