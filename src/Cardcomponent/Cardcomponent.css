@@ -1,8 +1,7 @@
 .containerborder{
     
-    border: 1px solid gray;
-    margin-top: 2%;
-
+    
+    max-width: 80%;
 }
 .rightborder{
     border-right: 1px solid gray;

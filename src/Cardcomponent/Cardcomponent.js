@@ -25,7 +25,7 @@ class Cardcomponent extends Component {
     return (
      
        
-       <Container>
+       <Container className ="containerborder">
 
        
         <Row className="row">
