@@ -10,7 +10,7 @@ export default (props) => {
   const bodyRef = React.createRef();
   const createPdf = () => props.createPdf(bodyRef.current);
   const sravan=()=> window.open("https://update-portfolio.herokuapp.com/portfolio.html");
-  
+  const linkedin=()=> window.open("https://www.linkedin.com/in/kumar-tangella-b59976163/");
 
   
   return (
@@ -19,6 +19,7 @@ export default (props) => {
       <Img src={s} alt="Avatar" />
         <button onClick={createPdf}>Resume Download</button>
         <button  onClick={sravan}>Portfolio</button>
+        <button  onClick={linkedin}>LinkedIn</button>
         
         <button>Website</button>
         <UncontrolledButtonDropdown>

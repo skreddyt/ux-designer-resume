@@ -42,7 +42,9 @@ class Cardcomponent extends Component {
         <Summary /> 
         </Col>
         <Col xs="12">
-        <Cot /> <Yeti /> <Cigna /> <Usaa /> <Dte /> <Garden /> <William /> <Gordon /><Deem />
+        <Cot /> 
+        <Yeti /> <Cigna /> <Usaa /> <Dte /> <Garden /> <William /> <Gordon /><Deem />
+        
        
         </Col>
       </Row>
