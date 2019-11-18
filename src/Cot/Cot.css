@@ -6,6 +6,16 @@
 }
 
 .headerstyle{
-    color:#87c087;
+    color: #002b45;
     font-weight: bold;
+}
+
+.tools{
+    color: #002b45;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.projects{
+    text-align: justify;
 }

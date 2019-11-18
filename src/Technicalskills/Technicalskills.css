@@ -1,23 +1,12 @@
-.ptag{
-    margin-bottom: 0px;
-  }
 
-  .education{
-    text-align: center;
-    color: white;
-  }
 
-  .h4tag{
-    margin-top: 10%;
-    font-size: 18px;
-  }
-
-  .h5tag{
-   
-    font-size: 16px;
-  }
-
-  .h6tag{
-   
-    font-size: 12px;
-  }
+  .usaa{
+    margin-top: 20px;
+    -webkit-box-shadow: 0px 0px 12px -5px #3B69FF; 
+    box-shadow: 0px 0px 12px -5px #3B69FF;
+    padding: 16px;
+}
+.headerstyle{
+  color: #002b45;
+  font-weight: bold;
+}

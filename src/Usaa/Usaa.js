@@ -5,37 +5,47 @@ const Usaa = () => {
         <div className="usaa">
         <div className="headerstyle">
         Client: USAA, San Antonio TX   <br/>
-        Oct2017- June2018 <br/>
-Role: Sr. UI/UX Designer <br/>
+        Oct 31, 2017 to April,2018 <br/>
+Role: UI and Core Java Developer <br/>
 Sravankumar.tangella@Usaa.com <br/>
         </div>
-       
-      
-Responsibilities: <br/>
-- Developed a windows application as per the client specifications using NodeJs and Developed the UI screens Used CSS and Flex style for web pages using LESS structure and implemented routing in using React.JS<br/>
-- using ReactJS, Java script, HTML 5, and CSS3. <br/>
-- Implemented the web application using React framework, along with Flux architecture on Nodejs.<br/>
-- Designing websites/landing page for clients using Adobe XD, Photoshop <br/>
-- Adobe Marketing & Experience Cloud Products: Analytics, Social, Target, Campaign, Media Optimizer, DTM, AEM (Sites, Apps, etc.)<br/>
-- Added Bootstrap library to make the website responsive.<br/>
-- Worked on the UI of a web based content management system built with React and Redux. <br/>
-- Built highly reusable UI components with React and Styled Components to increase scalability and reusability. <br/>
-- Collecting requirements from Business team, Stake holder, Product owners and creating initial sketch using Sketch and develop dynamic Wireframes and visual design for desktop web and mobile applications in a store environment. Performed UI, functionality, integration, web and host based applications.<br/>
-- Designend low and high fidelity wireframes using Adobe XD, Photoshop, After Effects, prototypes and OmniGraffle.<br/>
-- Layout construction of ads, comic books, and storyboards.<br/>
-- Enhance the old mock-up of the intranet site based on the new Wireframes.<br/>
-- Wrote theme from mockups from Designer for new site <br/>
-- Created React components, using Redux for unidirectional data flow <br/>
-- Maintained applications current states using Redux <br/>
-- Writing Javascript logic for business facing web application using React, Redux and ES6 <br/>
-- Developed application using MVC Framework Node JS, React.JS and Bootstrap. <br/>
-- Constructed restful API's in collaboration with backend Node.js server and SQL database.<br/>
-- Constructed web pages for application using MVC3, & Type Script, JQuery, React JS, Node JS <br/>
-- Migrated and managed multiple applications from on-premise to cloud using AWS services like S3 <br/>
-- Deployed multiple applications utilizing most of the AWS services such as EC2, Lamda, Route 53 .<br/>
-- Tested various modules using JUnit. <br/>
-Environment: HTML, CSS3, TypeScript, React.JS Eclipse, AWS, Bootstrap, wireframes, storyboards, Adobe XD, Photoshop, Adobe Marketing & Experience and prototypes, mockups, Ajax, DOM, Node JS, GIT, Control-M, Core java and Junit
 
+
+<h6 className="tools">Tools and Technologies Used:</h6>
+<p>Core Java, JSR, Junit, Control-m, React and Redux, Html, CSS, Flexbox, Mock Plus and Node.Js </p>
+<h6 className="tools">Descriptions:</h6>
+<h6>Project Name: Shared_PQ</h6>
+<p className="projects">USAA call centre receives numerous calls per day, all dialed-in customer information is stored in 3P file format in different locations respectively in referent databases. This application works as a translation layer to process these 3P files saves in different databases. These 3P files reached to the system on a scheduled manner and stores in OADB Databases, Shared PQ JSR Batch gathers this data from different databases and stores in centralized QA Report Database, Share PQ handles the burden in removing the redundant 3p records and reprocessing 3P files in its business defined manner
+</p>
+<h6 className="tools">Responsible:</h6>
+<p>
+- High ability to work on agile methodology.<br/>
+- Played vital role in Application Development.<br/>
+- Well Versed in writing Core Java Modules.<br/>
+- Contributed effectively in implementing JSR Batch job.<br/>
+- Writing junit test cases.<br/>
+- Playing vital role in writing JSR scripts in xml file .<br/>
+- Raising service request for crating databases, AWC, RTC components deploy in different environment.<br/>
+- Creating new component my application RTC Repository.<br/>
+- Scheduling the control-m Jobs in the specified time. <br/>
+</p>
+
+
+<h6 className="tools">Descriptions:</h6>
+<h6>Project Name: BAT2.0</h6>
+<p className="projects"> USAA The Bulk Attribute Tool(BAT) is used to alter the attributes of agents both in bulk and individually. An Attribute identify a call routing requirement, such as language, location, or Agent expertise. Here we using Tool React and redux for design and connecting API. We are using React for Design Single pages and Redux we are using for API connecting We are creating our Own components not using the other components </p>
+<h6 className="tools">Responsible:</h6>
+<p>
+- Design, develop and build application using React and Redux consuming the payloads received from the Java Web API Core 2.0.<br/>
+- Design the all Wireframes and Sketch as per my Client requirements.<br/>
+- Explored the concepts of Components, Directives, Services and Routing in React.<br/>
+- Created front-end unit tests using Mocha for React Action methods and Reducers helped QA create TSQL tests during swarming sessions to meet sprint deadlines.<br/>
+- Created React components.<br/>
+- Working with CSS3, JavaScript, React JS and ES6 for developing user interface.<br/>
+- Implemented content switching using React JS routing and fetched data through asynchronous call.<br/>
+- Utilized React-Router (v2-4) to provide consistent user-facing routing across the application.<br/>
+- Using GitLab Repository.<br/>
+</p>
 </div>
     )}
 

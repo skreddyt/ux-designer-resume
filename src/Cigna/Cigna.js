@@ -6,33 +6,30 @@ const Cigna = () => {
         <div className="headerstyle">
          Client: Cigna, Austin TX   <br/>                                                                                               
          July2018- Oct,2018  <br/>  
-         Role: Sr. UI/UX developer & Designer  <br/>  
+         Role: UI/UX developer  <br/>  
          Sravankumar.tangella@Cigna.com <br/>  
         </div>
-       
-Responsibilities: <br/>  
-- Extensive experience of Object Oriented JavaScript design pattern and JavaScript MVC Patterns Preferably Angular JS. <br/>  
-- Interacted with clients to understand their existing applications and design the site according to their system requirements.  <br/>  
-- Developed the user interface with HTML, HTML5, CSS, CSS3, JavaScript, jQuery, Bootstrap, Angular Js  <br/>  
-- Used Responsive Web Design templates to meet cutting-edge technology requirements. <br/>  
-- Implemented Page Optimization techniques for web pages, Best Practices in JavaScript and handled Cross Browser compatibility issues in web pages.  <br/>  
-- Developed prototype concepts using Invision Studios concept designs  <br/>  
-- Managed internationally based engineers, analysts & testers on various Adobe Experience cloud projects. <br/>  
-- Researched, strategized and launched UX improvements. <br/>  
-- Developed a cross-platform mobile app using Ionic and Cordova. <br/>  
-- Used Angular2.x to bind HTML elements data to JavaScript Objects and developed dynamic Single Page Application (SPA's). <br/>  
-- Developed Custom Directives like Elements, Attributes and Classes and AngularJS2 .x Factory to monitor asynchronous service calls through Dependency Injection  <br/>  
-- Extensively implemented ES6 for building interactive cross platform web application and optimizing the application for high performance  <br/>  
-- Developing custom HTML elements using Angular2 directives. <br/>  
-- Implemented Angular2.x classes and life cycle hooks to maintain the data present in each view. <br/>  
-- Used IBM Bluemix to build, test, and deploy the applications. <br/>  
-- Automated Build and deployment pipeline using GIT, Maven and Jenkins. <br/>  
-- Involved in localization and internationalization of the web pages using JSON and Angular 2 <br/>  
-- Developed JS applications on MVC based frameworks like Angular MVC. <br/>  
+        
+        <h6 className="tools">Tools and Technologies Used:</h6>
+         <p> EXL Developing Tool, JavaScript, Jquery, Html, and CSS </p>
+
+        <h6 className="tools">Descriptions:</h6>
+        <h6>Project Name: LadyBrids</h6>
+
+       <p className="projects">The scope of Strategic Frontend Program will include design, development of components for the mentioned projects in the cloudscape platform, for Cigna Supplemental Benefits. Beneficiary will have the following responsibilities for this program. Equotes application is to generate web pages for Agent operations. This application uses the configuration provided by Underwriting for building web pages. This application is designed to be a single sign on application so Agent View Portal login will provide access to Equotes as well. Logged-in agents are allowed to perform activities like campaign selection, applicant search/registration, product search and selection, quote generation, and policy Enrollment. This application is designed to handle incomplete (partially filled) applications as well. A logged-in Agent is allowed to fill in the insurance application in single/multiple interactions through phone or personal meeting. Agents can start a fresh new application or they can search for existing incomplete applications, if any. If an incomplete application is selected, pre-population process of this application takes care of populating available applicants and already selected products(if any) details with updated rates. For incomplete application, agents are provided an option to start from the page where they left it, in their last interaction. Major responsibilities of the Beneficiary for this project, are listed below.</p>
+       <h6 className="tools">Responsible:</h6>
+<p>
+- Environment setup and supporting software installations in all the environments.<br/>
+- EXL-uLissia (third party tool) deployment in various environments.<br/>
+- Integrating LISS Portal with EXL-uLissia (third party tool).<br/>
+- Integrating Equotes application with Agent View Portal.<br/>
+- Data model changes across environments. <br/>
+- Design and develop User interface screens.<br/>
+- Implementing or changing User interface functionalities which includes scripting and styling.<br/>
+- Developing Customize Script genic and dymic by using JavaScript and Jquery.<br/>
 
 
-Environment: HTML, CSS3, JavaScript, Angular Js, Eclipse, Adobe Experience Manager, Bootstrap, Ionic, Cordova, Ajax, DOM, Node JS, GIT, 
-
+</p>
 </div>
     )}
 

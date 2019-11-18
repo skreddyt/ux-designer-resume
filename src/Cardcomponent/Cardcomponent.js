@@ -6,13 +6,11 @@ import Img from 'react-image';
 import Summary from '../Summay/Summary';
 import Cot from '../Cot/Cot'
 import Yeti from '../Yeti/Yeti';
-import Deem from '../Deem/Deem';
+
 import Cigna from '../Cigna/Cigna';
 import Usaa from '../Usaa/Usaa';
-import Dte from '../Dte/Dte';
-import Garden from '../Garden/Garden';
-import Gordon from '../Gordon/Gordon';
-import William from '../William/William';
+import Sriharsha from '../Sriharsha/Sriharsha';
+
 import Education from '../Education/Education';
 import Username from '../Username/Username';
 import Technicalskills from '../Technicalskills/Technicalskills';
@@ -34,16 +32,17 @@ class Cardcomponent extends Component {
        <Img src={sumath} className="Image"alt="Avatar" />
        <Username />
        <Education />
-       <Technicalskills />
+       
         
         </div>
         </Col>
         <Col xs="9">
         <Summary /> 
+        <Technicalskills />
         </Col>
         <Col xs="12">
         <Cot /> 
-        <Yeti /> <Cigna /> <Usaa /> <Dte /> <Garden /> <William /> <Gordon /><Deem />
+        <Yeti /> <Cigna /> <Usaa /> <Sriharsha />
         
        
         </Col>

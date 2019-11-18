@@ -5,6 +5,17 @@ box-shadow: 0px 0px 12px -5px #3B69FF;
 padding: 16px;
 }
 .headerstyle{
-    color:#87c087;
+    color: #002b45;
     font-weight: bold;
+}
+
+.projects{
+    text-align: justify;
+}
+
+
+
+.tools{
+    color: #002b45;
+    font-weight: 600;
 }
